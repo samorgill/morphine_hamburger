@@ -1,0 +1,24 @@
+{
+  "name": "morphing_hamburger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/samorgill/morphine_hamburger.git"
+  },
+  "keywords": [
+    "css",
+    "sass",
+    "menu"
+  ],
+  "author": "Sam Orgill",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samorgill/morphine_hamburger/issues"
+  },
+  "homepage": "https://github.com/samorgill/morphine_hamburger#readme"
+}
