@@ -8,4 +8,4 @@ Set up steps
   "build-css": "node-sass --include-path scss src/input.scss src/styles.css",
   "watch-css": "nodemon -e scss -x \"npm run build-css\" "
 5/ Back in terminal run "npm install concurrently --save"
-6/ Run "npm start" to compile your scss file and 
+6/ Run "npm start" to compile your scss file.
