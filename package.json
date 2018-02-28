@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/samorgill/morphine_hamburger.git"
+    "url": "git+ssh://git@github.com/samorgill/morphing_hamburger.git"
   },
   "keywords": [
     "css",
@@ -21,9 +21,9 @@
   "author": "Sam Orgill",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/samorgill/morphine_hamburger/issues"
+    "url": "https://github.com/samorgill/morphing_hamburger/issues"
   },
-  "homepage": "https://github.com/samorgill/morphine_hamburger#readme",
+  "homepage": "https://github.com/samorgill/morphing_hamburger#readme",
   "devDependencies": {
     "node-sass": "^4.7.2",
     "nodemon": "^1.17.1"
