@@ -2,9 +2,12 @@
   "name": "morphing_hamburger",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./src/hamburger.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "concurrently \"./src/hamburger.html\" \"npm run watch-css\" ",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss src/hamburger.scss src/styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\" "
   },
   "repository": {
     "type": "git",
@@ -20,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/samorgill/morphine_hamburger/issues"
   },
-  "homepage": "https://github.com/samorgill/morphine_hamburger#readme"
+  "homepage": "https://github.com/samorgill/morphine_hamburger#readme",
+  "devDependencies": {
+    "node-sass": "^4.7.2",
+    "nodemon": "^1.17.1"
+  }
 }
